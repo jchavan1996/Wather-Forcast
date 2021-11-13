@@ -1,0 +1,11 @@
+<div class="container pt-5 mt-5">
+<center>
+<%= form_with url: show_path do  |form| %>
+     <div class="form-group">
+     <h1>Weather Api</h1>
+     <%= form.text_field :city, class:"form-control" , placeholder:"Enter City Name"%>
+     </div>
+     <%= form.submit :submit, class:"btn btn-primary" %>
+<% end %>
+</center>
+</div>
